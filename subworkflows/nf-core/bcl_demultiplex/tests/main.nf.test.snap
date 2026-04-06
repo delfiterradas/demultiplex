@@ -154,22 +154,50 @@
                         ]
                     ]
                 ],
+                "sav_data": [
+                    [
+                        {
+                            "id": "HMTFYDRXX"
+                        },
+                        "multiqc_data"
+                    ]
+                ],
+                "sav_plots": [
+
+                ],
+                "sav_report": [
+                    [
+                        {
+                            "id": "HMTFYDRXX"
+                        },
+                        "multiqc_report.html"
+                    ]
+                ],
                 "stats": [
-                    
+
+                ],
+                "undetermined": [
+                    [
+                        {
+                            "id": "HMTFYDRXX",
+                            "lane": 1
+                        },
+                        "Undetermined_S0_L001_R1_001.fastq.gz"
+                    ]
                 ]
             }
         ],
+        "timestamp": "2026-03-16T13:47:40.083238326",
         "meta": {
-            "nf-test": "0.9.3",
+            "nf-test": "0.9.4",
             "nextflow": "25.10.4"
-        },
-        "timestamp": "2026-02-25T11:36:55.329912"
+        }
     },
     "bcl2fastq": {
         "content": [
             {
                 "empty_fastq": [
-                    
+
                 ],
                 "fastq": [
                     [
@@ -210,7 +238,7 @@
                     ]
                 ],
                 "logs": [
-                    
+
                 ],
                 "reports": [
                     [
@@ -228,7 +256,7 @@
                                                 "laneBarcode.html:md5,2bbdae3ee57151eab520c966597d7438"
                                             ],
                                             [
-                                                
+
                                             ]
                                         ]
                                     ],
@@ -249,7 +277,7 @@
                                                 "laneBarcode.html:md5,48842c23b9a2816aec540177df870968"
                                             ],
                                             [
-                                                
+
                                             ]
                                         ]
                                     ]
@@ -259,6 +287,25 @@
                                 "tree.html:md5,a1b9bf592973ca829ec69ddf888b7e34"
                             ]
                         ]
+                    ]
+                ],
+                "sav_data": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "multiqc_data"
+                    ]
+                ],
+                "sav_plots": [
+
+                ],
+                "sav_report": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "multiqc_report.html"
                     ]
                 ],
                 "stats": [
@@ -276,13 +323,16 @@
                             "Stats.json:md5,8e5f038b8aa9e465599d3575f930e604"
                         ]
                     ]
+                ],
+                "undetermined": [
+
                 ]
             }
         ],
+        "timestamp": "2026-03-16T13:48:09.325036018",
         "meta": {
-            "nf-test": "0.9.3",
+            "nf-test": "0.9.4",
             "nextflow": "25.10.4"
-        },
-        "timestamp": "2026-02-17T15:52:15.463745"
+        }
     }
 }

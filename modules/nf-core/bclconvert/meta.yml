@@ -78,7 +78,7 @@ output:
       - output/Reports/*.{csv,xml,bin}:
           type: file
           description: Demultiplexing Reports
-          pattern: "Reports/*.{csv,xml,bin}"
+          pattern: "Reports"
           ontologies:
             - edam: http://edamontology.org/format_3752 #CSV
             - edam: http://edamontology.org/format_2332 #XML
@@ -90,7 +90,7 @@ output:
       - output/Logs/*.{log,txt}:
           type: file
           description: Demultiplexing Logs
-          pattern: "Logs/*.{log,txt}"
+          pattern: "Logs"
           ontologies:
             - edam: http://edamontology.org/format_2330 #TEXT
   interop:
